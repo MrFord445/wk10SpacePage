@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--Author:James Ford
+    jamford1@uat.edu
+    wk 8-1 assignment
+-->
+<html>
+<script src="code.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<head>
+    <title>
+        UATSpace Page
+    </title>
+
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><img src="UATspaceLogo-2-1.jpg"></td>
+            <td>
+                <h1>
+                    UATSPACE program
+                </h1>
+            </td>
+        </tr>
+    </table>
+
+    <table id="data" border="2" width="70%" class="table2">
+        <col style="width: 35%;">
+        <col style="width: 35%;">
+        <thead>
+            <tr style="font-family: fantasy;">
+                <th align="left">Data type</th>
+                <th align="left">Reading</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="seconds">
+                <td>Time Elasped</td>
+                <td>15 Seconds</td>
+            <tr id="latitude">
+                <td>latitude</td>
+                <td>0</td>
+            <tr id="longitude">
+                <td>longitude</td>
+                <td>0</td>
+            <tr id="gps_altitude">
+                <td>gps altitude</td>
+                <td>0</td>
+            <tr id="bmpSensor_altitude">
+                <td>Bmp Sensor altitude</td>
+                <td>303863.64</td>
+            <tr id="bmpSensor_pressure">
+                <td>Bmp Sensor pressure</td>
+                <td>2.34</td>
+            <tr id="bmpSensor_temp">
+                <td>Bmp Sensor temperature</td>
+                <td>0</td>
+            <tr id="digSensor_temp">
+                <td>Digital Sensor Temperature</td>
+                <td>30.4</td>
+            <tr id="cssSensor_temp">
+                <td>CSS Sensor Temperature</td>
+                <td>30.4</td>
+            <tr id="cssSensor_eCO2">
+                <td>CSS Sensor eCO2</td>
+                <td>30.4</td>
+            <tr id="cssSensor_TVOC">
+                <td>CSS Sensor TVOC</td>
+                <td>30.4</td>
+            <tr id="UV">
+                <td>UV</td>
+                <td>3</td>
+            <tr id="accelX">
+                <td>accelX</td>
+                <td>3</td>
+            <tr id="accelY">
+                <td>accelY</td>
+                <td>3</td>
+            <tr id="accelZ">
+                <td>accelZ</td>
+                <td>3</td>
+            <tr id="magneticX">
+                <td>magneticX</td>
+                <td>3</td>
+            <tr id="magneticY">
+                <td>magneticY</td>
+                <td>3</td>
+            <tr id="magneticZ">
+                <td>magneticZ</td>
+                <td>3</td>
+            <tr id="gyroX">
+                <td>gyroX</td>
+                <td>3</td>
+            <tr id="gyroY">
+                <td>gyroY</td>
+                <td>3</td>
+            <tr id="gyroZ">
+                <td>gyroZ</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    </br>
+    <button onclick="start();" id="startButton" class="button">Start</button>
+    <button onclick="stop();" id="stopButton" class="button">Stop</button>
+    <button onclick="playStation();"> Play Space Station Sounds</button><br>
+    <button onclick="playJuice();">Play Song</button>
+    <h1>Play Craps game</h1>
+
+</body>
+
+</html>
